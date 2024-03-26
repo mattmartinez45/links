@@ -13,8 +13,6 @@
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
-        display: flex;
-        justify-content: center;
       }
       .thumbnail {
         width: 48px;
@@ -30,13 +28,12 @@
       .social-icons a {
         color: #fffffe;
         text-decoration: none;
-        display: flex;
-        justify-content: space-around;
       }
       .link {
         background-color: #f9bc60;
         display: flex;
         align-items: center;
+        padding: 5px;
       }
       .link a {
         color: #001e1d;
@@ -51,41 +48,53 @@
         max-width: 640px;
         flex-grow: 1;
       }
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
     </style>
   </head>
 
   <body>
-    <div class="banner">
-      <img src="/thumbnails/profile-pic.JPG" alt="Matt Martinez profile" class="banner-image">
-    </div>
+    <div class="items>
+      <div class="banner">
+        <img src="/thumbnails/profile-pic.JPG" alt="Matt Martinez profile" class="banner-image">
+      </div>
 
-    <div class="name">
-      Matt Martinez
-    </div>
+      <div class="name">
+        Matt Martinez
+      </div>
 
-    <div class="social-icons">
-      <a href="https://github.com/mattmartinez45" target="_blank">
-        GitHub
-      </a>
+      <div class="social-icons">
+        <a href="https://github.com/mattmartinez45" target="_blank">
+          GitHub
+        </a>
 
-      <a href="https://www.linkedin.com/in/matthew-martinez-58ba081a5" target="_blank">
-        LinkedIn
-      </a>
+        <a href="https://www.linkedin.com/in/matthew-martinez-58ba081a5" target="_blank">
+          LinkedIn
+        </a>
 
-      <a href="https://www.instagram.com/matt.martinez/" target="_blank">
-        Instagram
-      </a>
-    </div>
+        <a href="https://www.instagram.com/matt.martinez/" target="_blank">
+          Instagram
+        </a>
+      </div>
 
-    <div class="link">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2006-06-22_12-37-59_Seychelles_-_Machabee_%28Sainte_Anne_Island%29.jpg/1200px-2006-06-22_12-37-59_Seychelles_-_Machabee_%28Sainte_Anne_Island%29.jpg" class="thumbnail">
-      <a target="_blank" href="https://allpoetry.com/No-man-is-an-island"> "No Man is an Island" - John Donne</a>
-    </div>
+      <div class="link">
+        <img class ="thumbnail"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2006-06-22_12-37-59_Seychelles_-_Machabee_%28Sainte_Anne_Island%29.jpg/1200px-2006-06-22_12-37-59_Seychelles_-_Machabee_%28Sainte_Anne_Island%29.jpg">
+        <a target="_blank" href="https://allpoetry.com/No-man-is-an-island"> "No Man is an Island" - John Donne</a>
+      </div>
 
-    <div class="link">
-      <img src="https://m.media-amazon.com/images/I/81n7XQvyeQL._AC_UF1000,1000_QL80_.jpg" class="thumbnail"
-      <a target="_blank" href="https://www.goodreads.com/en/book/show/13269"> The Poetics of Space - Gaston Bachelard</a>
-    </div>
+      <div class="link">
+        <img class="thumbnail" 
+          src="https://m.media-amazon.com/images/I/81n7XQvyeQL._AC_UF1000,1000_QL80_.jpg">
+        <a target="_blank" href="https://www.goodreads.com/en/book/show/13269"> The Poetics of Space - Gaston Bachelard</a>
+      </div>
+    </body>
 
   </body>
 
